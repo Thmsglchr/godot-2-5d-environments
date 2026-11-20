@@ -17,5 +17,9 @@ A reference image of a 2D side-scrolling scene is important for defining the com
 ```text
 Use $godot-2-5d-environments to recreate the attached reference as a 2.5D side-scrolling scene in Godot, aiming for AAA production quality.
 
-Polish the scene to match the reference as closely as possible, then rate the match from 0 to 10. Repeat the polish and assessment until the score reaches 10.
+After recreating the scene:
+
+1. Polish it to match the reference as closely as possible.
+2. Rate the match from 0 to 10.
+3. Return to step 1 if the score is below 10.
 ```
