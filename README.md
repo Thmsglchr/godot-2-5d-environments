@@ -9,3 +9,13 @@ The workflow models playable scenery as actual 3D geometry and checks it through
 Copy the `godot-2-5d-environments` folder into your Codex skills directory, then ask Codex to build or repair a Godot 4 side-scrolling environment, or invoke `$godot-2-5d-environments` explicitly. Blender and Godot are needed to carry out the full workflow.
 
 The skill includes a camera and layer reference for axis conversion, parallax, coverage, materials and atmosphere.
+
+## Example prompt
+
+A reference image of a 2D side-scrolling scene is important for defining the composition, style and visual details to recreate. Attach an existing image or use `$imagegen` to create one.
+
+```text
+Use $godot-2-5d-environments to recreate the attached reference as a 2.5D side-scrolling scene in Godot, aiming for AAA production quality.
+
+Polish the scene to match the reference as closely as possible, then rate the match from 0 to 10. Repeat the polish and assessment until the score reaches 10.
+```
